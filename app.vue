@@ -1,5 +1,8 @@
+<script setup>
+import "@formkit/themes/genesis";
+</script>
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <FormKit type="text" />
+  <FormKit type="select" options="['a', 'b', 'c']" />
+  <FormKit type="textarea" />
 </template>

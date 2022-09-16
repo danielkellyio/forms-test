@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "nuxt": "3.0.0-rc.10"
+  },
+  "dependencies": {
+    "@formkit/nuxt": "^1.0.0-beta.11-c95e605",
+    "@formkit/themes": "*"
   }
 }
